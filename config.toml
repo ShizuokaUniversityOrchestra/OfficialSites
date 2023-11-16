@@ -1,6 +1,6 @@
 baseURL = 'https://shizudaiorch.web.fc2.com'
 languageCode = 'ja'
-title = 'Hugoサンプル'
+title = '静岡大学管弦楽団'
 [taxonomies]
   tag = "tags"
   category = "categories"

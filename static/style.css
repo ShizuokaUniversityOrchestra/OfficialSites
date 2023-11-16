@@ -1,0 +1,667 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    border-bottom: 1px solid #000;
+    background-color: #202020;
+    /* padding-top : 1%;
+    padding-left: 1%;
+    padding-bottom : 1%;
+    padding-right: 1%; */
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0.5%;
+    position: fixed;
+    z-index: 5;
+}
+
+footer {
+    padding-top: 1%;
+    margin-top: 1%;
+    border-top: 1px solid #000;
+    background-color: #202020;
+    padding-bottom: 2%;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    z-index: 4;
+}
+
+ul {
+    padding: 10px;
+}
+
+a {
+    /* display: block; */
+    text-decoration: none;
+}
+
+p {
+    padding-left: 1rem;
+    font-weight: 500;
+}
+
+
+
+.header_title a {
+    color: #fff;
+}
+
+.contents {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#infotable {
+    background-color: #f5f5f5;
+    padding-bottom: 10%;
+}
+
+.infotablearea {
+    width: 100%;
+    max-width: 900px;
+    padding-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infotablearea_head {
+    /* font-weight : bold; */
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.infotable {
+    width: 100%;
+    height: 140px;
+    background-color: #fff;
+    font-size: 0.9rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    border: 1px solid #000;
+    display: block;
+    overflow-y: scroll;
+}
+
+.information {
+    color: #000;
+}
+
+td {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.date {
+    width: 15%;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+    .back {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/108th.jpg');
+        /* background-color: #000000; */
+        background-size: auto 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        /* width: 100%; */
+        height: 100vh;
+        z-index: 0;
+    }
+
+
+    .header_title {
+        font-size: 2rem;
+        /* font-weight: bold; */
+        color: #fff;
+        font-family: 'Noto Sans JP', sans-serif;
+        letter-spacing: 0.1rem;
+        z-index: 80;
+        padding: 10px 10px 10px 10px;
+        /* text-align: center; */
+    }
+
+    .menu-content {
+        position: fixed;
+        justify-content: flex-end;
+        z-index: 80;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 100%;
+        z-index: 80;
+        background-color: #202020;
+        transition: all 0.5s;
+    }
+
+    .menu-content ul {
+        justify-content: center;
+        margin: 0px;
+        /* padding: 0px 0px 0px 15px; */
+        /* text-align: center; */
+        transition: all 0.5s;
+    }
+
+    .menu-content ul li {
+        /* width: 125px; */
+        /* display: inline-block; */
+        border-bottom: solid 1px #c0c0c0;
+        padding: 10px;
+        list-style-type: none;
+        /* position: relative; */
+    }
+
+    .menu-content ul li a {
+        /* line-height: 40px; */
+        text-align: center;
+        text-decoration: none;
+        background-color: #202020;
+        color: #f5f5f5;
+    }
+
+    .menu-content ul li a:hover {
+        /* background-color: #808080; */
+        color: #c0c0c0
+    }
+
+    .nav_text {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 1.5rem;
+        color: #fff;
+        margin-right: 35px;
+    }
+
+    #menu-btn-check input[type=checkbox].hide-checkbox {
+        display: none;
+    }
+
+    #menu-btn-check:checked~.menu-btn span {
+        background-color: #fff0;
+    }
+
+    #menu-btn-check:checked~.menu-btn span::before {
+        bottom: 0;
+        transform: rotate(45deg);
+        transition: all 0.5s;
+    }
+
+    #menu-btn-check:checked~.menu-btn span::after {
+        top: 0;
+        transform: rotate(-45deg);
+        transition: all 0.5s;
+    }
+
+    #menu-btn-check:checked~.menu-content {
+        left: 0;
+        transition: all 0.5s;
+    }
+
+    .menu-btn {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        display: flex;
+        height: 60px;
+        width: 60px;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+        background-color: #202020;
+    }
+
+    .menu-btn span,
+    .menu-btn span:before,
+    .menu-btn span::after {
+        content: '';
+        display: block;
+        height: 3px;
+        width: 25px;
+        border-radius: 3px;
+        background-color: #fff;
+        position: absolute;
+        transition: all 0.5s;
+    }
+
+    .menu-btn span:before {
+        bottom: 8px;
+    }
+
+    .menu-btn span:after {
+        top: 8px;
+    }
+
+    #menu-btn-check {
+        display: none;
+    }
+
+    .welcome_title {
+        position: relative;
+        padding-bottom: 20%;
+        text-align: center;
+        letter-spacing: 0.1em;
+        font-weight: 500;
+        color: #fff;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 2.6rem;
+    }
+
+    .welcome_subtitle {
+        position: relative;
+        padding-top: 70%;
+        font-weight: 500;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: #fff;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .contents_date {
+        font-size: 1rem;
+        /* font-weight: bold; */
+        margin-top: 20%;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    .contents_title {
+        font-size: 1.2rem;
+        /* font-weight: bold; */
+        margin-top: 5px;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    .contents_text {
+        background-color: #fff;
+        margin-top: 10px;
+        padding: 3% 5%;
+        /* padding-left: 5em; */
+        border-radius: 10px;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    .contents_text ul {
+        margin-top: 5%;
+        font-size: 1.5rem;
+        font-family: 'Noto Sans JPbold', sans-serif;
+    }
+
+    .footer_text {
+        font-size: 0.8rem;
+        margin-top: 1%;
+        color: #fff;
+        text-align: center;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    .img {
+        margin-top: 5%;
+        padding-top: 5%;
+        align-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 601px) {
+
+    .back {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/108th.jpg');
+        /* background-color: #000000; */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        z-index: 0;
+    }
+
+
+    .header_title {
+        font-size: 1.6rem;
+        /* font-weight: bold; */
+        color: #fff;
+        font-family: 'Noto Sans JP', sans-serif;
+        letter-spacing: 0.1rem;
+        z-index: 80;
+        /* text-align: center; */
+    }
+
+    .main_nav {
+        text-align: right;
+        align-content: end;
+        padding-top: 5px;
+        padding-right: 5px;
+        box-sizing: border-box;
+        z-index: 80;
+    }
+
+    .menu-content {
+        justify-content: flex-end;
+        z-index: 80;
+    }
+
+    .menu-content ul {
+        margin: 0px;
+        padding: 0px 0px 0px 15px;
+        background-color: #202020;
+        text-align: right;
+
+    }
+
+    .menu-content ul li {
+        /* width: 125px; */
+        position: relative;
+
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    .menu-content ul li a {
+        /* line-height: 40px; */
+        text-align: left;
+        text-decoration: none;
+        background-color: #202020;
+        color: #f5f5f5;
+    }
+
+    .menu-content ul li a:hover {
+        /* background-color: #808080; */
+        color: #c0c0c0
+    }
+
+    .nav_text {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 1rem;
+        color: #fff;
+        margin-right: 35px;
+    }
+
+    #menu-btn-check {
+        display: none;
+    }
+
+    .welcome_title {
+        position: relative;
+        padding-bottom: 20%;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 0.3em;
+        color: #fff;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 4rem;
+    }
+
+    .welcome_subtitle {
+        position: relative;
+        padding-top: 20%;
+        text-align: center;
+        font-weight: 100;
+        letter-spacing: 0.5em;
+        color: #fff;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 2rem;
+    }
+
+    .contents_date {
+        font-size: 1rem;
+        /* font-weight: bold; */
+        margin-top: 10%;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    .contents_title {
+        font-size: 1.2rem;
+        /* font-weight: bold; */
+        margin-top: 5px;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    .contents_text {
+        background-color: #fff;
+        margin-top: 10px;
+        padding: 3% 5%;
+        /* margin-left: 10em; */
+        /* padding-left: 10em; */
+        border-radius: 10px;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    .contents_text ul {
+        margin-top: 5%;
+        font-size: 1.5rem;
+        font-family: 'Noto Sans JPbold', sans-serif;
+    }
+
+    .footer_text {
+        font-size: 1rem;
+        margin-top: 1%;
+        color: #fff;
+        text-align: center;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+}
+
+img.contents_image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 2em;
+    /* 画像を中央揃えにする */
+}
+
+.contact {
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+}
+
+.contact_title {
+    text-align: left;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border-bottom: 1px dotted #a0a0a0;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.contact_content {
+    text-align: left;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 0.8rem;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.contact_content a {
+    color: #ccc;
+}
+
+.contact_content a:hover {
+    color: #888;
+}
+
+.welcome {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    margin: 5px;
+}
+
+h2 {
+    margin: 20px;
+}
+
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-left: 5em;
+}
+
+.contents_text h2 {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.contents_text p {
+    /* padding-left: 2em; */
+    font-size: 1.4rem;
+    font-weight: 400;
+    /* color: #222; */
+    padding: 1% 0 1% 2em;
+}
+
+.contents_text a {
+    margin-left: -5em;
+    margin-bottom: 3em;
+    padding-bottom: 3em;
+    font-size: 1.4rem;
+}
+
+.contents_text ul {
+    font-weight: 800;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.headline {
+    text-align: center;
+    color: #202020;
+    font-weight: 700;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 2rem;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+.text {
+    text-align: center;
+    color: #202020;
+    font-weight: 500;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1rem;
+}
+
+.text h2 {
+    font-weight: 500;
+}
+
+#next_concert {
+    padding-top: 1%;
+    background-color: #ffffff00;
+    padding-bottom: 1%;
+    z-index: 1;
+    width: 100%;
+    position: relative;
+}
+
+#welcome_msg {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    background-color: #f5f5f5;
+}
+
+h4.prv_c {
+    color: #f5f5f5;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: normal;
+    padding-top: 5%;
+    /* padding-left: 5em; */
+    text-align: center;
+}
+
+p.prv_c {
+    color: #f5f5f5;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: normal;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.button {
+    border: 1px solid #202020;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    max-width: 100px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: block;
+}
+
+.button a {
+    color: #202020;
+}
+
+.button a:hover {
+    color: #000;
+}
+
+.button:hover {
+    background-color: #d0d0d0;
+}
+
+.contents_text a {
+    text-decoration: none;
+    color: #08f;
+    padding-left: 5em;
+}
+
+
+@media (min-width: 600px) {
+    #parent {
+        display: flex;
+        /* padding-left: 5px;
+      padding-right: 5px; */
+        padding-bottom: 10px;
+    }
+
+    #child1 {
+        flex-grow: 1;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #child2 {
+        flex-grow: 1;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .contact {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+}
