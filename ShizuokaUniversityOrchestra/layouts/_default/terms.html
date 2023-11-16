@@ -1,0 +1,23 @@
+{{ partial "header.html" . }}
+
+<div class="contents">
+    {{ if eq .Title "Tags"}}
+        <div class="contents_date">　</div>
+        <div class="contents_title">タグ一覧</div>
+        <div class="contents_text">
+                {{ range .Site.Taxonomies.tags.ByCount }}
+                <a href="{{ "/tags/" | relURL }}{{ .Name | urlize }}">{{ .Name }}({{ .Count }})</a><br>
+                {{ end }}
+        </div>
+    {{ else if eq .Title "Categories"}}
+        <div class="contents_date">　</div>
+        <div class="contents_title">カテゴリ一覧</div>
+        <div class="contents_text">
+            {{ range .Site.Taxonomies.categories.ByCount }}
+            <a href="{{ "../categories/" | relURL }}{{ .Name | urlize }}">{{ .Name }}({{ .Count }})</a><br>
+            {{ end }}
+        </div>
+    {{ end }}
+</div>
+
+{{ partial "footer.html" . }}     

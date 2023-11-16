@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/style.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ .Site.BaseURL }}/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ .Site.BaseURL }}/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ .Site.BaseURL }}/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ .Site.BaseURL }}/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ .Site.BaseURL }}/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ .Site.BaseURL }}/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ .Site.BaseURL }}/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ .Site.BaseURL }}/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ .Site.BaseURL }}/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ .Site.BaseURL }}/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}/favicons/favicon-16x16.png">
+    <title>静岡大学管弦楽団</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header_title">
+            <a href="{{ .Site.BaseURL }}/index.html">静岡大学管弦楽団</a>
+        </div>
+
+        <div class="hamburger-menu"> <!-- 画面上部のナビゲーションバー -->
+            <input type="checkbox" id="menu-btn-check">
+            <label for="menu-btn-check" class="menu-btn"><span></span></label>
+            <!-- ここからメニュー -->
+            <div class="menu-content">
+                <ul>
+                    <li><a href="{{ .Site.BaseURL }}/index.html" class="nav_text">HOME</a></li>
+                    <li><a href="{{ .Site.BaseURL }}/concert" class="nav_text">定期演奏会</a></li>
+                    <li><a href="{{ .Site.BaseURL }}/faq" class="nav_text">FAQ</a></li>
+                    <li><a href="#contact" class="nav_text">問い合わせ</a></li>
+                </ul>
+            </div>
+            <!-- ここまでメニュー -->
+        </div>
+    </header>

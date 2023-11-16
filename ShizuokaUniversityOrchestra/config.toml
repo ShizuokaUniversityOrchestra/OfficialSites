@@ -1,0 +1,8 @@
+baseURL = 'https://shizudaiorch.web.fc2.com'
+languageCode = 'ja'
+title = 'Hugoサンプル'
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+[params]
+  custom_css = ["static/style.css"]

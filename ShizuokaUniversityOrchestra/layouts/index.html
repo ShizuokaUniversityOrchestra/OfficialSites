@@ -1,0 +1,47 @@
+{{ partial "header.html" . }}
+<div class="back">
+    <div class="welcome">
+        <div class="welcome_subtitle">
+            静岡大学公認文化系サークル
+        </div>
+        <div class="welcome_title">
+            静岡大学管弦楽団
+        </div>
+    </div>
+</div>
+
+<div id="next_concert">
+    <div class="headline">
+        第110回定期演奏会
+    </div>
+    <div class="text">
+      2023年12月24日(土)に静岡市民文化会館大ホールにて第110回定期演奏会を開催します。
+        <div class="button">
+            <a href="{{ .Site.BaseURL }}/110th">詳細を見る</a>
+        </div>
+    </div>
+</div>
+
+<div id="welcome_msg">
+    <div class="headline">
+        静岡大学管弦楽団へようこそ
+    </div>
+    <div class="text">
+        <h2>1962年に創団されたこのオーケストラは、年2回の定期演奏会を主に活動しています。<br>2018年の冬には第100回記念定期演奏会を開催しました。</h2>
+    </div>
+</div>
+
+<div id="infotable">
+<div class="infotablearea">
+    <div class="infotablearea_head">新着情報</div>
+    <table class="infotable">
+        {{ range .Pages.ByPublishDate.Reverse }}
+                <tr>
+                    <td>{{ .Date.Format "2006.01.02" }}</td>
+                    <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+                </tr>
+        {{ end }}
+    </table>
+</div>
+</div>
+        {{ partial "footer.html" . }}
