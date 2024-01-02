@@ -1,8 +1,8 @@
 ---
 title: "第109回定期演奏会終演しました！"
 date: "2023-07-01"
-tags: [定期演奏会終演]
-categories: [定期演奏会]
+tags: [定期演奏会終演, 定期演奏会]
+categories: [定期演奏会終演]
 draft: false
 ---
 
