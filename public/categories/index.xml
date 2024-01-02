@@ -1,45 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Hugoサンプル</title>
-    <link>https://shizudaiorch.web.fc2.com/categories/</link>
-    <description>Recent content in Categories on Hugoサンプル</description>
+    <title>Categories on 静岡大学管弦楽団</title>
+    <link>https://shizuorche.com/categories/</link>
+    <description>Recent content in Categories on 静岡大学管弦楽団</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 02 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://shizudaiorch.web.fc2.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://shizuorche.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>基本情報</title>
-      <link>https://shizudaiorch.web.fc2.com/categories/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%A0%B1/</link>
-      <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+      <title>定期演奏会</title>
+      <link>https://shizuorche.com/categories/%E5%AE%9A%E6%9C%9F%E6%BC%94%E5%A5%8F%E4%BC%9A/</link>
+      <pubDate>Thu, 16 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://shizudaiorch.web.fc2.com/categories/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%A0%B1/</guid>
+      <guid>https://shizuorche.com/categories/%E5%AE%9A%E6%9C%9F%E6%BC%94%E5%A5%8F%E4%BC%9A/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>定期演奏会</title>
-      <link>https://shizudaiorch.web.fc2.com/categories/%E5%AE%9A%E6%9C%9F%E6%BC%94%E5%A5%8F%E4%BC%9A/</link>
+      <title>基本情報</title>
+      <link>https://shizuorche.com/categories/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%A0%B1/</link>
       <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://shizudaiorch.web.fc2.com/categories/%E5%AE%9A%E6%9C%9F%E6%BC%94%E5%A5%8F%E4%BC%9A/</guid>
+      <guid>https://shizuorche.com/categories/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%A0%B1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>定期演奏会終演</title>
+      <link>https://shizuorche.com/categories/%E5%AE%9A%E6%9C%9F%E6%BC%94%E5%A5%8F%E4%BC%9A%E7%B5%82%E6%BC%94/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://shizuorche.com/categories/%E5%AE%9A%E6%9C%9F%E6%BC%94%E5%A5%8F%E4%BC%9A%E7%B5%82%E6%BC%94/</guid>
       <description></description>
     </item>
     
     <item>
       <title>イベント</title>
-      <link>https://shizudaiorch.web.fc2.com/categories/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</link>
+      <link>https://shizuorche.com/categories/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</link>
       <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://shizudaiorch.web.fc2.com/categories/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</guid>
+      <guid>https://shizuorche.com/categories/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</guid>
       <description></description>
     </item>
     
     <item>
       <title>活動総括</title>
-      <link>https://shizudaiorch.web.fc2.com/categories/%E6%B4%BB%E5%8B%95%E7%B7%8F%E6%8B%AC/</link>
+      <link>https://shizuorche.com/categories/%E6%B4%BB%E5%8B%95%E7%B7%8F%E6%8B%AC/</link>
       <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://shizudaiorch.web.fc2.com/categories/%E6%B4%BB%E5%8B%95%E7%B7%8F%E6%8B%AC/</guid>
+      <guid>https://shizuorche.com/categories/%E6%B4%BB%E5%8B%95%E7%B7%8F%E6%8B%AC/</guid>
       <description></description>
     </item>
     

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>定期演奏会 on Hugoサンプル</title>
-    <link>https://shizudaiorch.web.fc2.com/tags/%E5%AE%9A%E6%9C%9F%E6%BC%94%E5%A5%8F%E4%BC%9A/</link>
-    <description>Recent content in 定期演奏会 on Hugoサンプル</description>
+    <title>定期演奏会 on 静岡大学管弦楽団</title>
+    <link>https://shizuorche.com/tags/%E5%AE%9A%E6%9C%9F%E6%BC%94%E5%A5%8F%E4%BC%9A/</link>
+    <description>Recent content in 定期演奏会 on 静岡大学管弦楽団</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 02 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://shizudaiorch.web.fc2.com/tags/%E5%AE%9A%E6%9C%9F%E6%BC%94%E5%A5%8F%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://shizuorche.com/tags/%E5%AE%9A%E6%9C%9F%E6%BC%94%E5%A5%8F%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>定期演奏会</title>
-      <link>https://shizudaiorch.web.fc2.com/concert/</link>
+      <link>https://shizuorche.com/concert/</link>
       <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://shizudaiorch.web.fc2.com/concert/</guid>
+      <guid>https://shizuorche.com/concert/</guid>
       <description>定期演奏会 このページでは静岡大学管弦楽団の定期演奏会についてのページにアクセスすることができます。
-次回の定期演奏会 第110回定期演奏会前回の定期演奏会 第109回定期演奏会過去の演奏会 第102回 - 第108回第51回 - 第101回第1回 - 第50回</description>
+次回の定期演奏会 第111回定期演奏会前回の定期演奏会 第110回定期演奏会過去の演奏会 第102回 - 第110回第51回 - 第101回第1回 - 第50回</description>
     </item>
     
     <item>
       <title>第110回定期演奏会のお知らせ</title>
-      <link>https://shizudaiorch.web.fc2.com/110th/</link>
+      <link>https://shizuorche.com/110th/</link>
       <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://shizudaiorch.web.fc2.com/110th/</guid>
+      <guid>https://shizuorche.com/110th/</guid>
       <description>第110回定期演奏会開催のお知らせ 以下の日程で第110回定期演奏会を開催いたします。
 曲目 O. ニコライ / 歌劇「ウィンザーの陽気な女房達」序曲
 R. コルサコフ / スペイン奇想曲
@@ -32,15 +32,26 @@ A. ドヴォルザーク / 交響曲第9番 ホ短調 Op.95「新世界より」
 日時 2023年12月24日(日)
 開場: 14:00 開演: 14:30
 チケット 自由席 800円
-予約フォーム 演奏会の事前予約はこちらから</description>
+予約フォーム 沢山のご来場ありがとうございました。</description>
+    </item>
+    
+    <item>
+      <title>第109回定期演奏会終演しました！</title>
+      <link>https://shizuorche.com/109thend/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://shizuorche.com/109thend/</guid>
+      <description>第109回定期演奏会終演しました！ 第109回定期演奏会は無事終演しました！ご来場いただいた方々、本当にありがとうございました。 アンコールは以下の通りとなります。
+アンコール(ピアノソロ: 近藤奏) まらしぃ/未来ハ廻ル
+アンコール マヌエル・デ・ファリャ/&amp;ldquo;恋は魔術師&amp;rdquo;(1925年版)より &amp;ldquo;8. 火祭りの踊り&amp;rdquo;</description>
     </item>
     
     <item>
       <title>第109回定期演奏会のお知らせ</title>
-      <link>https://shizudaiorch.web.fc2.com/109th/</link>
+      <link>https://shizuorche.com/109th/</link>
       <pubDate>Sun, 25 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://shizudaiorch.web.fc2.com/109th/</guid>
+      <guid>https://shizuorche.com/109th/</guid>
       <description>第109回定期演奏会開催のお知らせ 以下の日程で第109回定期演奏会を開催いたします。
 曲目 W. ウォルトン / 戴冠行進曲「宝玉と王の杖」
 E. グリーグ / ピアノ協奏曲 Op.16
